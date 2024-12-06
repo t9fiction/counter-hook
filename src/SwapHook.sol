@@ -38,11 +38,4 @@ contract SwapHook is BaseHook {
     }
 
 
-    function helloWorld() public pure returns (string memory) {
-        // Correctly defining the string variable
-        string memory abc = "Hello World"; // Use double quotes for string literals
-        return abc;
-    }
-
-
 }
